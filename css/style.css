@@ -1,0 +1,58 @@
+body {
+	background-color: #3284BF;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: #FFF;
+}
+
+#transparent {
+	background: 
+	url('../images/gene-block.jpg');
+	opacity: .5;
+	background-size: 27vw 60vh;
+	width: 26vw;
+	height: 60vh;
+	position: relative;
+	top: 8vw;
+	margin-right: 2vw;
+	border-radius: 10px;
+}
+
+
+#loadingBar {
+	width: 30vw;
+	height: 5vh;
+}
+
+#pictureHolder {
+	margin: 0 auto;
+	position: relative;
+	top: 5vw;
+	width: 90vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+
+}
+
+#pictureHolder .myImage, #pictureHolder #geneB {
+	position: relative;
+	top: 8vw;
+	width: 26vw;
+	height: 60vh;
+	margin-right: 2vw;
+	border-radius: 10px;
+}
+
+.myImage2 {
+	width: 26vw;
+	height: 60vh;
+	opacity: .5;
+	margin-right: 2vw;
+	border-radius: 10px;
+}
